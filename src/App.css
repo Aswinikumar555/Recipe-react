@@ -1,0 +1,291 @@
+html, body, .root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+}
+body, .app {
+  background: white;
+}
+
+.book-head{
+  text-align: center;
+}
+
+.recphelf {
+  padding: 0 10px 20px;
+}
+
+@media (min-width: 600px) {
+  .recphelf {
+    padding: 0 20px 40px;
+  }
+}
+
+.recphelf-title {
+  border-bottom: 1px solid #dedede;
+}
+/* .bookshelf-books {
+  text-align: center;
+} */
+
+
+.recphelf-grid {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.books-grid li {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.book {
+  /* width: 140px; */
+  width: 400px;
+  border: 1px solid rgb(182, 167, 167);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.top {
+  position: relative;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.recp_img_box {
+  width: 140px;
+  /* border: 1px solid black; */
+  margin-left: 135px;
+  margin-top: -1px;
+  margin-bottom: 150px;
+}
+
+.recp_img_box_top {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.cover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #eee;
+  width: 128px;
+  height: 193px; 
+}
+
+.image{
+  width:128px;
+  height:193px;
+}
+
+.ingredients {
+  position: relative;
+  top: -70px;
+  font-size: 15px;
+  margin-left: 6px;
+  text-align: justify;
+  word-break: break-all;
+  
+}
+.instructions {
+  position: relative;
+  top: -176px;
+  font-size: 15px;
+  margin-left: 170px;
+  text-align: justify;
+  word-break: break-all;
+  
+}
+/* .title-ingredients{
+  position: relative;
+  top: -70px;
+  font-size: 15px;
+  margin-left: 6px;
+  text-align: justify;
+  word-break: break-all;
+  
+
+}
+.title-instructions{
+  position: relative;
+  top: -130px;
+  font-size: 15px;
+  margin-left: 170px;
+  text-align: justify;
+  word-break: break-all;
+} */
+
+/* .Buttons_style{
+  display: inline-block;
+} */
+.Edit_button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.Delete_button{
+     background-color: rgb(224, 30, 72); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 206px;
+
+
+}
+
+.open-search {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+.open-search a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #378f3c;
+  background-image: url('./icons/add.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-size: 0;
+}
+
+
+/*  Edit Page    */
+
+
+.book-head{
+  text-align: center;
+}
+
+.editrecp {
+  padding: 0 10px 20px;
+}
+
+@media (min-width: 600px) {
+  .editrecp {
+    padding: 0 20px 40px;
+  }
+}
+
+.editrecp-title {
+  border-bottom: 1px solid #dedede;
+}
+/* .bookshelf-books {
+  text-align: center;
+} */
+
+
+.editrecp-grid {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.editrecp-grid li {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.recp {
+  /* width: 140px; */
+  width: 500px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.editrecp-top {
+  position: relative;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.editrecp_img_box {
+  width: 140px;
+  /* border: 1px solid black; */
+  margin-left: 165px;
+  margin-top: -1px;
+  margin-bottom: 150px;
+}
+
+.editrecp_img_box_top {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.editrecp-cover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #eee;
+  width: 128px;
+  height: 193px; 
+}
+
+
+.editrecp-title {
+  /* width: 200px;
+  height: 50px; */
+  position: relative;
+  top: -70px;
+  font-size: 15px;
+  margin-left: 6px;
+  
+}
+.editrecp-authors {
+  /* width: 200px;
+  height: 50px; */
+  position: relative;
+  top: -120px;
+  font-size: 15px;
+  margin-left: 230px;
+  
+}
+.submit-button{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.delete-button{
+  background-color: rgb(228, 31, 47); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 274px;
+  
+}
+
+.destroy{
+  text-decoration: none;
+  color: white;
+}
